@@ -112,12 +112,12 @@ export default function AIKavithaigalStudio() {
   const [author, setAuthor]           = useState("@shoukathsandy");
   const [showBrand, setShowBrand]     = useState(true);
   const [themeIdx, setThemeIdx]       = useState(0);
-  const [sizeIdx, setSizeIdx]         = useState(0);
-  const [fontSize, setFontSize]       = useState(28);
+  const [sizeIdx, setSizeIdx]         = useState(1);
+  const [fontSize, setFontSize]       = useState(22);
   const [headingSize, setHeadingSize] = useState(20);
   const [fontIdx, setFontIdx]         = useState(0);
-  const [fontStyle, setFontStyle]     = useState("italic");
-  const [textAlign, setTextAlign]     = useState("center");
+  const [fontStyle, setFontStyle]     = useState("bold");
+  const [textAlign, setTextAlign]     = useState("left");
   const [frameIdx, setFrameIdx]       = useState(0);
   const [lineSpacing, setLineSpacing] = useState(1.75);
   const [showParticles, setShowParticles] = useState(true);
