@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #050710;
+  --foreground: #e0e4ec;
+  --card: #0c0f16;
+  --card-foreground: #e0e4ec;
+  --border: #1a1e2a;
+  --input: #1a1e2a;
+  --ring: #8b7aff;
+  --muted: #1a1e2a;
+  --muted-foreground: #5a6072;
+  --accent-color: #8b7aff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #0c0f16; }
+::-webkit-scrollbar-thumb { background: #1a1e2a; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #2a2e3a; }
+
+input, textarea, select {
+  font-family: inherit;
+}
+
+/* shadcn overrides for dark theme */
+[data-state="active"] {
+  color: white !important;
+}
