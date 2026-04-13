@@ -423,7 +423,7 @@ export default function AIKavithaigalStudio() {
           <Sparkles size={14} style={{ color: theme.accent }} />
           <span className="text-[10px] font-bold tracking-[4px] uppercase text-[#555]">Studio Pro</span>
         </div>
-        <h1 className="text-2xl font-bold text-white tracking-wide">AI Kavithaigal</h1>
+        <h1 className="text-2xl font-bold text-white tracking-wide ">AI Kavithaigal</h1>
         <p className="text-[10px] mt-1 tracking-widest text-[#444]">POST · REEL · STORY · ALL PLATFORMS</p>
         <div className="w-14 h-px mx-auto mt-3" style={{ background: `linear-gradient(90deg,transparent,${theme.accent},transparent)` }} />
       </header>
@@ -444,7 +444,7 @@ export default function AIKavithaigalStudio() {
               [`border${v==="top"?"Top":"Bottom"}`]:`2px solid ${rgba(theme.accent,.4)}`,
               [`border${h==="left"?"Left":"Right"}`]:`2px solid ${rgba(theme.accent,.4)}` }} />
           ))}
-          {showBrand && <div className="absolute top-3 left-0 right-0 text-center text-[7px] font-black tracking-[3px] uppercase" style={{color:rgba(theme.accent,.7)}}>AI KAVITHAIGAL</div>}
+          {showBrand && <div className="absolute top-10 left-0 right-0 text-center text-[8px] font-black tracking-[3px] uppercase" style={{color:rgba(theme.accent,.7)}}>AI KAVITHAIGAL</div>}
           <div className="relative z-10 flex flex-col items-center w-full px-2" style={{textAlign}}>
             <div className="text-[8px] tracking-[3px] mb-1" style={{color:rgba(theme.accent,.4)}}>{theme.dTop}</div>
             {heading && <>
